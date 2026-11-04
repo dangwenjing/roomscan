@@ -84,7 +84,8 @@ class FloorBoundaryDetector(
             ref[0] += c[0]; ref[1] += c[1]; ref[2] += c[2]; cnt++
         }
         if (cnt == 0) return -1
-        ref[0] /= cnt; ref[1] /= cnt; ref[2] /= cnt
+        val inv = 1f / cnt
+        ref[0] = ref[0] * inv; ref[1] = ref[1] * inv; ref[2] = ref[2] * inv
 
         var run = 0
         var boundary = -1
