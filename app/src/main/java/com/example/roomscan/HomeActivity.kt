@@ -20,6 +20,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnMeasure.setOnClickListener { startActivity(Intent(this, MeasureActivity::class.java)) }
+        binding.btnAuto.setOnClickListener { startActivity(Intent(this, AutoScanActivity::class.java)) }
         binding.btnAr.setOnClickListener { startActivity(Intent(this, MainActivity::class.java)) }
         binding.btnAr.isEnabled = false
         binding.arStatus.text = getString(R.string.ar_checking)

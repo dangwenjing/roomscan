@@ -41,6 +41,17 @@
     <string name="length_hint">长度(例如 3.85)</string>
     <string name="invalid_length">请输入大于 0 的长度</string>
 
+    <!-- 自动扫描(实验) -->
+    <string name="home_auto">自动扫描(实验)</string>
+    <string name="home_auto_desc">站在房间中央转一圈,不用量尺,出一张大概的平面图</string>
+    <string name="auto_hint_idle">站到房间中央。手机竖着举在胸前,镜头略朝下,让画面下半部能看到地板和墙的交线。然后按“开始扫描”</string>
+    <string name="auto_hint_scanning">原地慢慢转一圈(约 20 秒)。黄线应该一直贴在地板和墙的交线上;右上角雷达覆盖到 100% 后按“完成”</string>
+    <string name="camera_height_label">相机高度 </string>
+    <string name="btn_start_scan">开始扫描</string>
+    <string name="btn_pause_scan">暂停</string>
+    <string name="auto_need_coverage">只扫到 %1$d%% 的方向,请继续转,至少要 50%%</string>
+    <string name="auto_solve_failed">没能拟合出房间形状,请重来一次,转得慢一点,让黄线贴住墙根</string>
+
     <!-- 结果 -->
     <string name="title_plan">平面图</string>
     <string name="btn_export_png">导出 PNG</string>

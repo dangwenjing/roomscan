@@ -43,6 +43,24 @@
         android:textSize="13sp" />
 
     <Button
+        android:id="@+id/btnAuto"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/home_auto"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/home_auto_desc"
+        android:textColor="#757575"
+        android:textSize="13sp" />
+
+    <Button
         android:id="@+id/btnAr"
         style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="match_parent"
