@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">RoomScan</string>
+
+    <!-- 首页 -->
+    <string name="home_subtitle">走一圈,出一张带尺寸的平面图</string>
+    <string name="home_measure">测量模式</string>
+    <string name="home_measure_desc">任何安卓机可用:手机对准墙的方向 + 输入墙长(激光尺/卷尺)</string>
+    <string name="home_ar">AR 扫描模式</string>
+    <string name="ar_checking">正在检测 ARCore…</string>
+    <string name="ar_ready">ARCore 可用:对准墙角点一下即可,无需量尺</string>
+    <string name="ar_need_install">需要安装“Google Play 服务(AR)”,点击后会引导安装</string>
+    <string name="ar_unsupported">此设备不支持 ARCore(国行荣耀/华为等),请使用测量模式</string>
+
+    <!-- AR 模式 -->
+    <string name="hint_scanning">缓慢移动手机扫描地面,直到出现平面网格</string>
+    <string name="hint_aim">把准星对准地面与墙的交角,按“添加角点”</string>
+    <string name="hint_no_hit">准星下方没有检测到地面,请对准地板再试</string>
+    <string name="btn_add_corner">添加角点</string>
+    <string name="btn_undo">撤销</string>
+    <string name="btn_finish">完成</string>
+    <string name="btn_reset">重来</string>
+    <string name="corner_count">角点:%1$d</string>
+    <string name="need_three">至少需要 3 个角点/墙才能生成平面图</string>
+    <string name="camera_denied">需要相机权限才能进行 AR 扫描</string>
+    <string name="arcore_unavailable">此设备不支持 ARCore</string>
+
+    <!-- 测量模式 -->
+    <string name="measure_hint_first">站在一个墙角,像拍照一样把手机对准沿这面墙指向下一个墙角的方向,按“锁定方向”</string>
+    <string name="measure_hint_next">走到下一个墙角,对准下一面墙的方向,再按“锁定方向”</string>
+    <string name="measure_hint_done">继续记录剩余的墙;回到起点后按“完成”</string>
+    <string name="heading_absolute">当前方位(相对值,无需真北)</string>
+    <string name="heading_relative">相对第一面墙的转角(方正房间应接近 0 / ±90 / 180)</string>
+    <string name="btn_lock_wall">锁定方向</string>
+    <string name="snap_right_angle">直角吸附(±12°)</string>
+    <string name="closure_fmt">闭合差 %1$.0f cm</string>
+    <string name="closure_warning">闭合差 %1$.2f m 偏大,可能有一面墙长度输错或方向没对准</string>
+    <string name="no_walls_yet">尚未记录任何墙</string>
+    <string name="no_rotation_sensor">读取不到方向传感器,请稍等或换台手机</string>
+    <string name="dialog_length_title">输入这面墙的长度</string>
+    <string name="dialog_heading_fmt">墙 %1$d  ·  方向已锁定 %2$.0f°</string>
+    <string name="length_hint">长度(例如 3.85)</string>
+    <string name="invalid_length">请输入大于 0 的长度</string>
+
+    <!-- 结果 -->
+    <string name="title_plan">平面图</string>
+    <string name="btn_export_png">导出 PNG</string>
+    <string name="btn_export_pdf">导出 PDF</string>
+    <string name="stats_fmt">周长 %1$.2f m   面积 %2$.2f m²   角点 %3$d</string>
+    <string name="share_title">分享平面图</string>
+</resources>
